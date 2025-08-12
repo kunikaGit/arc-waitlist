@@ -92,6 +92,7 @@ const Home3 = () => {
   }, [toast]);
 
   return (
+    <div className='main-section'>
     <div className="container" role="main">
       <section className="hero" aria-label="ARC Funding hero">
         <div className="hero-left">
@@ -225,6 +226,7 @@ const Home3 = () => {
       {toast && (
         <div className="toast" role="status" aria-live="polite" style={{ display: 'block' }}>{toast}</div>
       )}
+    </div>
     </div>
   );
 };
